@@ -65,7 +65,19 @@
     vertical-align: super;
 }
 
+.bg_gray{
+    background-color: rgb(190, 188, 187);
+}
 
+.btn_gray{
+    background-color: rgb(217, 218, 220);
+    border-color: rgb(217, 218, 220);
+    color: rgb(45, 100, 230);
+    font-weight: 600;
+}
+
+
+/* hover effects */
 .hover_effect{
     cursor: pointer;
     border-bottom: 2px solid rgba(45, 100, 230, 0);
