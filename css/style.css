@@ -13,10 +13,17 @@
 
 .top-section{
     height: 70vh;
-    background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
     background-position-y: top;
+}
+
+.bg-returnal-section{
+    background-image: url('../img/jumbo-bg.png');
+}
+
+.bg-takes2-section{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
 
 .btn_orange{
