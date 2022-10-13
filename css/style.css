@@ -60,6 +60,11 @@
     font-weight: 500;
 }
 
+.r_icon{
+    font-size: 13px;
+    vertical-align: super;
+}
+
 
 .hover_effect{
     cursor: pointer;
