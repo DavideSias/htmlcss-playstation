@@ -42,7 +42,7 @@
 
 .text_nolimits{
     font-weight: 500;
-    color: rgb(45, 100, 230);
+    color: rgb(17, 123, 209);
 }
 
 .under_text{
@@ -87,6 +87,31 @@
     font-weight: 600;
 }
 
+.bg_color_blue{
+    background-color: rgb(0, 67, 156);
+}
+
+.ps-footer{
+    width: 90px;
+}
+
+.globe{
+    width: 20px;
+}
+
+.sie{
+    width: 130px;
+}
+
+.link_footer{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+.copyright{
+    font-size: 15px;
+}
 
 /* hover effects */
 .hover_effect{
