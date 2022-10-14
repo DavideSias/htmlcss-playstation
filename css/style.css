@@ -1,6 +1,29 @@
+body{
+    margin-top: 100px;
+}
 
 .top-logo{
     width: 5rem;
+}
+
+.dropdown{
+    position: static;
+}
+
+.dropdown-menu{
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu.show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+    width: 100%;
 }
 
 .btn_style{
@@ -12,10 +35,9 @@
 }
 
 .top-section{
-    height: 70vh;
+    height: 75vh;
     background-size: cover;
     background-position: center;
-    background-position-y: top;
 }
 
 .bg-returnal-section{
@@ -36,13 +58,31 @@
     border-color: rgb(45, 100, 230);
 }
 
+.card-game {
+	padding: 3px;
+	border: 2px solid transparent;
+	border-radius: 1rem;
+	overflow: hidden;
+	transition: transform .6s;
+}
+
+.card-game.active {
+	border: 2px solid rgb(0, 114, 206);
+}
+
+.card-game:hover {
+	border: 2px solid rgb(0, 114, 206);
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
 .img_radius{
-    border-radius: 20px;
+    border-radius: calc(1rem - 6px);
 }
 
 .text_nolimits{
     font-weight: 500;
-    color: rgb(17, 123, 209);
+    color: rgb(0, 114, 206);
 }
 
 .under_text{
@@ -113,14 +153,20 @@
     font-size: 15px;
 }
 
-/* hover effects */
-.hover_effect{
+.purchase{
+    opacity: 0.7;
     cursor: pointer;
-    border-bottom: 2px solid rgba(45, 100, 230, 0);
+    border-bottom: 2px solid white;
 }
 
-.hover_effect:hover{    
-    border-bottom: 2px solid rgba(45, 100, 230, 1);
+.purchase.active-purchase{
+    opacity: 1;
+    border-bottom: 2px solid rgb(0, 114, 206);
+}
+
+.purchase:hover{    
+    opacity: 1;
+    border-bottom: 2px solid rgb(0, 114, 206);
 }
 
 
