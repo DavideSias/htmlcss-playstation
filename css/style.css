@@ -26,6 +26,17 @@ body{
     width: 100%;
 }
 
+.dropdown-toggle::after {
+    border: none!important;
+    content: url('../img/chevron-down-solid.svg'); 
+    width: 10px;
+    vertical-align: middle; 
+}
+
+a.nav-link.dropdown-toggle.show::after{
+    transform: rotate(180deg);
+}
+
 .btn_style{
     border-radius: 2rem;
 }
@@ -167,6 +178,10 @@ body{
 .purchase:hover{    
     opacity: 1;
     border-bottom: 2px solid rgb(0, 114, 206);
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 
