@@ -59,12 +59,7 @@ a.nav-link.dropdown-toggle.show::after{
 
 .hoverable:hover{
     background-color: transparent;
-    /* border: 1px solid gray; */
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
-}
-
-.btn_style{
-    border-radius: 2rem;
 }
 
 .search-icon{
@@ -83,16 +78,6 @@ a.nav-link.dropdown-toggle.show::after{
 
 .bg-takes2-section{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-}
-
-.btn_orange{
-    background-color: rgb(205, 61, 15);
-    border-color: rgb(205, 61, 15);
-}
-
-.btn_blue{
-    background-color: rgb(45, 100, 230);
-    border-color: rgb(45, 100, 230);
 }
 
 .card-game {
@@ -146,26 +131,20 @@ a.nav-link.dropdown-toggle.show::after{
     background-color: rgb(190, 188, 187);
 }
 
-.btn_gray{
-    background-color: rgb(217, 218, 220);
-    border-color: rgb(217, 218, 220);
-    color: rgb(45, 100, 230);
-    font-weight: 600;
-}
-
 .bg_blue{
     background-color: rgb(22, 27, 59);
 }
 
-.btn_white{
-    background-color: white;
-    border-color: white;
-    color: black;
-    font-weight: 600;
-}
-
 .bg_color_blue{
     background-color: rgb(0, 67, 156);
+}
+
+.sales{
+    cursor: pointer;
+}
+
+.social{
+    cursor: pointer;
 }
 
 .ps-footer{
@@ -184,6 +163,10 @@ a.nav-link.dropdown-toggle.show::after{
     text-decoration: none;
     color: white;
     line-height: 2rem;
+}
+.link_footer:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 .copyright{
@@ -210,5 +193,66 @@ a.nav-link.dropdown-toggle.show::after{
     cursor: pointer;
 }
 
+/* btn styles */
 
+.btn_style{
+    border-radius: 2rem;
+    border: none;  
+}
+
+.btn_black{
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0 0 0 3px rgb(54, 54, 54);
+}
+
+.btn_black:hover{
+    background-color: rgb(54, 54, 54);
+    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(54, 54, 54);
+}
+
+.btn_orange{
+    background-color: rgb(205, 61, 15);
+    box-shadow: 0 0 0 3px rgb(205, 61, 15);
+}
+
+.btn_orange:hover{
+    background-color: rgb(205, 61, 15);
+    box-shadow: 0 0 0 2px black, 0 0 0 3px rgb(205, 61, 15);
+}
+
+.btn_blue{
+    background-color: rgb(45, 100, 230);
+    box-shadow: 0 0 0 3px rgb(45, 100, 230);
+}
+
+.btn_blue:hover{
+    background-color: rgb(45, 100, 230);
+    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(45, 100, 230);
+}
+
+.btn_gray{
+    background-color: rgb(217, 218, 220);
+    box-shadow: 0 0 0 3px rgb(217, 218, 220);
+    color: rgb(45, 100, 230);
+    font-weight: 600;
+}
+
+.btn_gray:hover{
+    background-color: rgb(217, 218, 220);
+    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(217, 218, 220);
+    color: rgb(45, 100, 230);
+}
+
+.btn_white{
+    background-color: white;
+    box-shadow: 0 0 0 3px white;
+    color: black;
+    font-weight: 600;
+}
+
+.btn_white:hover{
+    background-color: white;
+    box-shadow: 0 0 0 2px black, 0 0 0 3px white;
+    color: black;
+}
 
